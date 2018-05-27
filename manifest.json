@@ -1,0 +1,37 @@
+{
+  "name": "Tiny Noticeboard",
+  "version": "1.0",
+  "description": "Share company messages, available training information, local events and some inspirational information",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "Tiny Noticeboard."
+  },
+  "permissions": [
+    "identity"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "icons":  {
+    "16": "images/icon16px.png",
+    "32": "images/icon32px.png",
+    "128": "images/icon128px.png"
+  },
+  "oauth2": {
+    "client_id": "1034811808830-3a6lkncn33jodecaifufd4ca5cu838oo.apps.googleusercontent.com",
+    "scopes":["https://www.googleapis.com/auth/contacts.readonly"]
+  },
+  "key": "-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAksU2s+4pBzKBXZ6/9e4l
+wT4/VzLJiMl9BCFpJS+GwOpAdNfO3vCyNzbn5JSepeXBfHDikn7GVLfknBIQsh+J
+VIQJHbOtL8xA6G7LpRbH/6h04Otd6H7rvNcsu0wmZF1oQND1m5rnWsv4AGCUPP9r
+DaAjYy7DZ7VckW9seP6c5dQ/+ISLlrRrsxb7xKBe1pbGRe6xSDeSUi4GTLo49Ia0
+h761MikUY2siXsgfN0x1vCbJpphdHkwoZa1j+un6vQOmUcwQDhClgU/1pBnPJw75
+dPLOrGvQfvkuSFQclzSIsIen+ffj2NwTVWH9b9A5Y7VY3cDf6saNpxeWQjBrCP9m
+6QIDAQAB
+-----END PUBLIC KEY-----
+"
+}
