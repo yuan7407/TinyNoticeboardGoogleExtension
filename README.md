@@ -16,8 +16,8 @@ Pull up the Manage Extensions screen in your Chrome browser, make sure you have 
 * Company employees address list. (Could be input from Skype, Linkedin, Google+...)
 * Share information with Wechat, weibo...
 
-# Used Tech Stack
-Front-end web development including jQuery, SCSS...
-It won't take longer than 2 weeks if 2 developers make it as an MVP.
-Technicial limitation/risk will be some API offer functions for input information to the extension is not free, when the request reach to 
+# Technical Explanation
+* Using front-end web development including jQuery, SCSS...
+* It won't take longer than 2 weeks if 2 developers make it as an MVP.
+* Technicial limitation/risk will be some API offer functions for input information to the extension is not free, when the request reach to 
 a limitation, the function will no longer available.
