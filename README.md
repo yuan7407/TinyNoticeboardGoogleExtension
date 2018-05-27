@@ -19,5 +19,7 @@ Pull up the Manage Extensions screen in your Chrome browser, make sure you have 
 # Technical Explanation
 * Using front-end web development including jQuery, SCSS...
 * It won't take longer than 2 weeks if 2 developers make it as an MVP.
-* Technicial limitation/risk will be some API offer functions for input information to the extension is not free, when the request reach to 
+* Technicial limitation/risk: 
+1. Some API offer functions for input information to the extension is not free, when the request reach to 
 a limitation, the function will no longer available.
+2. Google Oauth need to get the extension ID and Google People API key before packing it. Check official link to avoid risk: https://developer.chrome.com/apps/tut_oauth 
